@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: rgb(89, 174, 216);
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(245, 248, 249);
+    text-align: justify;
+}
+.titulos{
+    font-family: "Sour Gummy", sans-serif;
+    color: rgb(246, 250, 252);
+    text-align: justify;
+    size: 2rem;
+
+}
+.titulo-2{
+    font-family: "Sour Gummy", sans-serif;
+    color: rgb(246, 250, 252);
+    text-align: justify;
+    size: 3rem;
+
+}
+.titulo-tabla{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(246, 250, 252);
+    text-align: center;
+}
+.texto{
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+    color: black;
+    size: 20px;
+}
+.contenedor-noticia{
+    border: 5px solid rgb(9, 113, 204);
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    width: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(11, 11, 12);
+    text-align: justify;
+    
+}
+.comentario-tabla{
+    font-style: italic;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tabla-posiciones{
+        background-image: url(/img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        border: 5px solid rgb(9, 113, 204);
+        padding: 10px 20px 10px 20px;
+        margin: 10px;
+        width: 900px;
+}
+table, th, td {
+    border-collapse: collapse;
+    font-family: "Sour Gummy", sans-serif;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    width: 900px;
+}     
+th {
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+      
+
+.bandera {
+    width: 30px;
+}
+.clasificados{
+    color: yellow;
+}
+.repechaje{
+    color: red;
+}
+.img-noticia{
+    align-content: center;
+}
