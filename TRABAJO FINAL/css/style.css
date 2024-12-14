@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Spicy+Rice&display=swap');
+
+:root {
+    background-color: #62d9f3;
+}
+main {
+    background-color: #62d9f3;
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 2rem;
+    padding: 2rem;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-top: 5px;
+       border: solid color(rgb(248, 246, 246) red green blue);
+}
+
+.aside-tienda {
+    padding: 2rem;
+    padding-left: 0;
+    background-image: url(../img/campeon.jpg);
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.aside-index {
+    padding: 2rem;
+    padding-left: 0;
+    background-color: white;
+    background-image: url(../img/sol.png);
+    background-position: center;
+    background-size: contain;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-tienda {
+    max-width: 100%;
+    padding: 20px;
+    padding-left: o;
+    margin: 0;
+      
+}
+
+.texto-footer{
+    color: #04428f;
+    font-size: .85rem ;
+    padding-top: 20px;
+}
+
+video {
+    width: 100%;
+    height: 300px;
+    }
+
+.titulo-principal {
+    font-weight: 400;
+    font-size: 3rem;
+    font-family: 'Spicy Rice';
+    text-align: center;
+    color: #04428f;
+    background-color: #62d9f3;
+    border: 2px solid rgb(251, 251, 252);
+    margin-top: 3px;
+    border-right: 1rem;
+    border-radius: 8px;
+    animation: rubberBand 2s;
+    
+}
+@keyframes rubberBand {
+    35% {
+        transform: scale3d(1.25,.75,1);
+    }
+    
+}
+
+.titulo-secundario{
+    font-weight: 400;
+    font-size: 2.4rem;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    color: #04428f;
+}
+.titulo-tienda {
+    background-color: #62d9f3;
+    color: #04428f;
+    border: 2px solid rgb(251, 251, 252);
+    padding: 5px 5px;
+    margin-top: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 4px 2px;
+    border-radius: 8px;
+}
+.titulo-video {
+    font-family: 'Bebas Neue';
+    font-size: 2rem;
+    font-stretch: expanded;
+    color: white;
+    padding-top: 1rem;
+
+
+}
+.boton-tienda {
+    background-color: #62d9f3;
+    color: #04428f;
+    border: 2px solid rgb(251, 251, 252);
+    padding: 5px 5px;
+    margin-top: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin: 4px 2px;
+    border-radius: 8px;
+    display: flex;
+    gap: 1rem;
+}
+.boton-tienda:hover {
+    background-color:#04428f;
+    color: #62d9f3;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: 5px solid #04428f;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #04428f;
+    font-family: 'Rubik';
+    font-style: unset;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+
+}
+.tarjeta:hover {
+    background-color:#04428f;
+    color: #62d9f3;
+}
+
+
+.tarjeta img {
+    width: 100%;
+
+}
+p {
+    font-family: 'Bebas Neue';
+    font-size: 1.4rem;
+    color: rgb(1, 4, 7);
+    font-weight: normal;
+    text-align: justify;
+    margin-top: 1rem;
+    
+}
+
+button {
+    background-color: #62d9f3;
+    color: #04428f;
+    border: 2px solid rgb(251, 251, 252);
+    padding: 5px 5px;
+    margin-top: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+
+}
+.boton-volver {
+    background-color: #62d9f3;
+    color: #04428f;
+    border: 2px solid rgb(251, 251, 252);
+    padding: 5px 5px;
+    margin-top: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+.boton-volver:hover {
+    background-color:#04428f;
+    color: #62d9f3;
+}
+
+#totalText {
+    font-size: larger;
+    font-weight: bolder;
+    color: #04428f;;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.peso {
+    font-size: small;
+}
+
+.click {
+    color:#04428f;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-menu {
+    border: 0;
+    display: flex;
+    font-size: 1.4rem;
+    gap: 1rem;
+}
+
+.boton-menu > i.bi-hand-index-thumb-fill {
+    transform: rotateZ(90deg);
+}
+.boton-menu.active {
+    background-color:#62d9f3;
+    width: 120%;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 1rem;
+    
+}
